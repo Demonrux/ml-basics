@@ -15,7 +15,7 @@
 Модель для прогнозирования размера чаевых (tip) на основе суммы счета (total_bill) и размера компании (size).
 
 #### Корреляционная матрица переменных:
-<img width="793" height="598" alt="image" src="https://github.com/user-attachments/assets/1ab1bdbc-2b0c-401f-92f9-0db37e10a36b" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/1ab1bdbc-2b0c-401f-92f9-0db37e10a36b" />
 
 #### Особенности:
 - Разделение данных на train/test (80%/20%)
