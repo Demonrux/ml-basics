@@ -45,7 +45,7 @@
 
 #### Результаты:
  - **`Accuracy модели на тестовых данных`** - 0.99
- - 
+   
 Матрицы ошибок:
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f52e7e1e-098f-4ec6-b26e-9fa047d4d7e3" />
 
