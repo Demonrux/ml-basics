@@ -30,10 +30,10 @@ seaborn.boxplot(data=data_file_cleaned, x='species', y='body_mass_g', ax=axes[1,
 plt.tight_layout()
 plt.show()
 
-# Разделяем данные(30%/70%)
-X_train, X_test, y_train, y_test = train_test_split(X, y_encoded, test_size=0.3, random_state=42)
+# Разделяем данные(20%/80%)
+X_train, X_test, y_train, y_test = train_test_split(X, y_encoded, test_size=0.2, random_state=42)
 
-# Создаем нашу модель лог. регресии и обучаем ее на тестовых данных
+# Создаем нашу модель лог. регресии и обучаем ее на обучающих данных
 model = LogisticRegression(multi_class='multinomial', max_iter=1000)
 model.fit(X_train, y_train)
 
